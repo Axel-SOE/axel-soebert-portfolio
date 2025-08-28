@@ -1,0 +1,85 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+p {
+    line-height: 25px;
+}
+
+body {
+    font-style: italic;
+    background-color: #FAF9EE;
+}
+
+.nav-link.active {
+    color: #3706e7 !important;
+    font-weight: bolder;
+}
+
+.logo-size {
+    width: 90px;
+    height: auto;
+}
+
+.search-bar{
+    height: 30px;
+    background-color: white ;
+    border-color: black;
+    text-align: center;
+    border-radius: 25px;  
+}
+
+.zoek-button {
+    color: blue;
+    border-color: black;
+    margin-left: 10px;
+    scale: 120%;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  gap: 20px; /* ruimte tussen links en rechts */
+  padding: 20px;
+}
+
+.about-text {
+  flex: 1; /* neemt 50% van de breedte */
+}
+
+.about-photo {
+  flex: 1; /* neemt ook 50% van de breedte */
+}
+
+.hover-img:hover {
+  scale: 101%;
+}
+
+.about-photo img {
+  max-width: 90%;
+  border-radius: 10px;  
+}
+
+.progress-bar{
+    background-color: #3706e7;
+}
+
+.foto-axel{
+    scale: 80%;
+
+}
+
+footer{
+    color: #3706e7;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
