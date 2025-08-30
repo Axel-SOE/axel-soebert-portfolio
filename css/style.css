@@ -3,6 +3,7 @@
 body {
     font-style: italic;
     background-color: #FAF9EE;
+    
 }
 .nav-link.active {
     color: #3706e7 !important;
@@ -14,6 +15,10 @@ body {
 
 span{
   color: red;
+}
+
+.contactinfo-aside{
+  display: none;
 }
 }
 
