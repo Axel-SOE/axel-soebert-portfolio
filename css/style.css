@@ -140,4 +140,10 @@ span{
   color: red;
 }
 
+#bericht {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  min-height: 100px;
+  resize: vertical;
+}
 }

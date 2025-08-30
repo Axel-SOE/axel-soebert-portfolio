@@ -75,7 +75,7 @@
             <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
             <div class="mb-3">
                 <label for="first name" class="form-label">Voornaam <span> *</span></label>
-                <input type="text" name="voornaam" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
+                <input type="text" name="voornaam" class="form-control" id="voornaam" required>
                 <div id="emailHelp" class="form-text"></div>
             </div>
             <div class="mb-3">
@@ -93,7 +93,7 @@
                     <label for="onderwerp" class="form-label">onderwerp<span> *</span></label>
                     <input type="text" name="subject" class="form-control" id="onderwerp" required>
                     <label for="bericht" class="form-label">tekst<span> *</span></label>
-                    <textarea name="message" class="form-control" id="bericht" required></textarea>
+                    <textarea name="message" class="form-control" id="bericht" required wrap="soft"></textarea>
                 </div>    
             </fieldset>
             <button type="submit" class="btn submit-kleur ">Submit</button>
