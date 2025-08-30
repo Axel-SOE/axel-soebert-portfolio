@@ -1,9 +1,8 @@
 /* smartphone */
-@media (max-width: 576px) {
-body {
-    font-style: italic;
-    background-color: #FAF9EE;
-    
+@media (min-width: 400px) {
+  body {
+      font-style: italic;
+      background-color: #FAF9EE;  
 }
 .nav-link.active {
     color: #3706e7 !important;
@@ -20,6 +19,13 @@ span{
 .contactinfo-aside{
   display: none;
 }
+
+footer {
+    color: #3706e7;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
 }
 
 footer {
@@ -30,8 +36,10 @@ footer {
 }
 
 /* pc */
-@media (min-width: 992px) {
-  
+@media (min-width: 950px) {
+.navbar-desktop{
+  display: flex;
+}
 p {
     line-height: 25px;
     font-size: larger;
