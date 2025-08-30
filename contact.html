@@ -75,23 +75,23 @@
             <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
             <div class="mb-3">
                 <label for="first name" class="form-label">Voornaam <span> *</span></label>
-                <input type="text" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
+                <input type="text" name="voornaam" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
                 <div id="emailHelp" class="form-text"></div>
             </div>
             <div class="mb-3">
-                <label for="last name" class="form-label">Naam <span> *</span></label>
-                <input type="text" class="form-control" re id="achternaam" required>
+                <label for="last name" class="form-label">achternaam <span> *</span></label>
+                <input type="text" name="achternaam" class="form-control" id="achternaam" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">email<span> *</span></label>
-                <input type="email" class="form-control" re id="email" required>
+                <input type="email" name="email" class="form-control" id="email" required>
             </div>
             </fieldset>
             <fieldset>
                 <legend class="text-uppercase fs-5 fw-bolder pt-3">Bericht</legend>
                 <div class="mb-3">
-                    <label for="text" class="form-label">onderwerp<span> *</span></label>
-                    <input type="text" class="form-control" required>
+                    <label for="onderwerp" class="form-label">onderwerp<span> *</span></label>
+                    <input type="text" name="subject" class="form-control" id="onderwerp" required>
                     <label for="bericht" class="form-label">tekst<span> *</span></label>
                     <textarea name="message" class="form-control" id="bericht" required></textarea>
                 </div>    
