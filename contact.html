@@ -70,16 +70,17 @@
     </div>
       <div class="mt-5 mb-5">
         <form name="contact" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
             <fieldset class="row g-3 mb-3">
             <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
             <div class="mb-3">
                 <label for="first name" class="form-label">Voornaam <span> *</span></label>
-                <input type="name" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
+                <input type="text" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
                 <div id="emailHelp" class="form-text"></div>
             </div>
             <div class="mb-3">
                 <label for="last name" class="form-label">Naam <span> *</span></label>
-                <input type="name" class="form-control" re id="achternaam" required>
+                <input type="text" class="form-control" re id="achternaam" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">email<span> *</span></label>
@@ -92,8 +93,7 @@
                     <label for="text" class="form-label">onderwerp<span> *</span></label>
                     <input type="text" class="form-control" required>
                     <label for="bericht" class="form-label">tekst<span> *</span></label>
-                    <input type="email" class="form-control" required>
-                    <textarea name="message"></textarea>
+                    <textarea name="message" class="form-control" id="bericht" required></textarea>
                 </div>    
             </fieldset>
             <button type="submit" class="btn submit-kleur ">Submit</button>
