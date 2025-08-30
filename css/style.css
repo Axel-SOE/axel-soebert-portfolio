@@ -26,7 +26,6 @@ footer {
     bottom: 0px;
     width: 100%;
 }
-}
 
 footer {
     color: #3706e7;
@@ -35,6 +34,11 @@ footer {
     width: 100%;
 }
 
+.submit-kleur{
+  background-color: var(--bs-success-bg-subtle);
+  font-weight: bolder;
+}
+}
 /* pc */
 @media (min-width: 950px) {
 .navbar-desktop{
