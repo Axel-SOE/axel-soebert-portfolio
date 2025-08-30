@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link rel="icon" type="image/png" href="/media/logoweb.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- JavaScript: boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </script>
+  <!-- eigen geschreven css -->
+   <link rel="stylesheet" href="/css/reset.css">
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-success-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    <img class="navbar-brand logo-size" src="/media/logoweb.png" alt="Site logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarNav"
+      aria-controls="NavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="NavbarNav">
+      <ul class="navbar-nav ms-auto navbar-mobile">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projecten.html">My projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact me</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto navbar-desktop">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projecten.html">My projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact me</a>
+        </li>
+      </ul>
+      <div>
+        <form>          
+            <input class="search-bar" type="search" placeholder="search...">
+            <button class="btn zoek-button"><i class="bi bi-search-heart"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="about-section m-3">
+  <div class="about-text col-12 col-md-6">
+    <h1 class="">Contactform</h1>
+    <div class="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repudiandae quae natus error tenetur excepturi eius, molestias dolorum, distinctio corrupti dignissimos deserunt in dolore perspiciatis expedita aperiam. Illum et neque blanditiis recusandae facere! Excepturi quo rem sequi quos non porro repellat atque laboriosam, provident, adipisci assumenda amet quisquam iure facilis quod mollitia dolore nesciunt iste accusantium? Voluptatem commodi aut eos aspernatur quam unde, reprehenderit veritatis numquam nihil aperiam repellat facilis cupiditate voluptatum fuga? Magnam, cupiditate totam! Ea laborum eveniet quod, modi, tempore distinctio expedita nesciunt dolore blanditiis sequi voluptatem quibusdam libero, pariatur amet ad delectus commodi itaque error deserunt ex?</p>
+    </div>
+      <div class="mt-5 mb-5">
+        <form>
+            <fieldset class="row g-3 mb-3">
+            <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
+            <div class="mb-3">
+                <label for="first name" class="form-label">Voornaam <span> *</span></label>
+                <input type="name" class="form-control" id="voornaam" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="last name" class="form-label">Naam <span> *</span></label>
+                <input type="name" class="form-control" re id="achternaam" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">email<span> *</span></label>
+                <input type="email" class="form-control" re id="email" required>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend class="text-uppercase fs-5 fw-bolder pt-3">Bericht</legend>
+                <div class="mb-3">
+                    <label for="bericht" class="form-label">tekst<span> *</span></label>
+                    <input type="text" class="form-control" required>
+                </div>    
+            </fieldset>
+            <button type="submit" class="btn btn-success ">Submit</button>
+        </form>
+      </div>
+  </div>
+  
+  <div class="row about-photo ">
+    <figure class="col-7">
+      <a href="https://stockcake.com/i/silhouetted-technological-portrait_515926_168189" target="_blank">
+      <img src="/media/sfeerfoto-form.jpg" class="img-fluid" alt="stockfoto form">
+      <figcaption>&copy; stockcake </figcaption>
+      </a>
+    </figure>
+  </div>
+</div>
+
+<footer class="text-center bg-success-subtle pt-1">&copy;Axel Soebert</footer>
+
+</body>
+</html>

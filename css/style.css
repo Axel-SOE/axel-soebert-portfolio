@@ -11,6 +11,17 @@ body {
 .navbar-desktop{
   display: none;
 }
+
+span{
+  color: red;
+}
+}
+
+footer {
+    color: #3706e7;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 /* pc */
@@ -105,6 +116,10 @@ footer {
     position: relative;
     bottom: 0px;
     width: 100%;
+}
+
+span{
+  color: red;
 }
 
 }
