@@ -1,15 +1,27 @@
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { }
+/* smartphone */
+@media (max-width: 576px) {
+body {
+    font-style: italic;
+    background-color: #FAF9EE;
+}
+.nav-link.active {
+    color: #3706e7 !important;
+    font-weight: bolder;
+}
+.navbar-desktop{
+  display: none;
+}
+}
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { }
-
+/* pc */
+@media (min-width: 992px) {
+  
 p {
     line-height: 25px;
     font-size: larger;
+}
+.navbar-mobile{
+  display: none;
 }
 
 body {
@@ -78,9 +90,21 @@ body {
 
 }
 
-footer{
+.contactinfo-aside {
+    position: absolute;
+    top: 150px;
+    right: 35px;  
+    border-radius: 50px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.9);
+    text-align: center;
+}
+
+footer {
     color: #3706e7;
     position: relative;
     bottom: 0px;
     width: 100%;
+}
+
 }

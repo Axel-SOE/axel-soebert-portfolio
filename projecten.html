@@ -23,10 +23,25 @@
 <nav class="navbar navbar-expand-lg bg-success-subtle">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-    <img class="navbar-brand logo-size" src="logoweb.png" alt="Site logo">
+    <img class="navbar-brand logo-size" src="/media/logoweb.png" alt="Site logo">
     </a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarNav"
+      aria-controls="NavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="NavbarNav">
+      <ul class="navbar-nav ms-auto navbar-mobile">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="projecten.html">My projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact me</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto navbar-desktop">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="index.html">About me</a>
         </li>
@@ -54,11 +69,11 @@
         <p>Welkom op de projectensectie van mijn portfolio. Hier krijg je een kijkje in de verschillende 
             projecten waar ik met passie aan heb gewerkt, van netwerkinfrastructuur voor school tot persoonlijke projecten.
               Elk project weerspiegelt mijn toewijding aan kwaliteit en creativiteit.</p>
-        <p>Hier onder vindt u mijn overzichtpagina waar al mijn projecten staan beschreven. Indien u meer wilt weten over een specifiek project kan u op de foto doorklikken.
+        <p>Hier onder vindt u mijn overzichtpagina waar al mijn projecten staan beschreven. Indien u meer wilt weten over een specifiek project kan u op de foto klikken.
         </p>
     </div>
-      <div class="col-10 mt-5">
-        <figure>
+      <div class="col-8 mt-5">
+        <figure class="">
             <h2>webwiz</h2>
             <p>Schoolproject</p>
             <a href="webwiz.html">
@@ -66,25 +81,27 @@
             </a>
             <figcaption>&copy; Axel Soebert</figcaption>
         </figure>
-        <figure>
-            <img src="/media/" alt="">
+        <figure class="mt-5">
+            <h2>project 2</h2>
+            <img src="/media/wit-vak.png" alt="">
         </figure>
-        <figure>
-            <img src="/media/logo.png" alt="">
+        <figure class="mt-5 mb-5">
+            <h2>project 3</h2>
+            <img src="/media/wit-vak.png" alt="">
         </figure>
       </div>
   </div>
   <div class="col-md-6 col-md-4 about-photo ">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="/media/html-vertical.jpg" class="d-block w-100" alt="">
+        <img src="/media/ap-hogeschool-antwerpen-logo-png_seeklogo-305815.png" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-        <img src="/media/person-suffering-from-technology-addiction-cybersickness.jpg" class="d-block w-100" alt="...">
+        <img src="/media/python.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-        <img src="/media" class="d-block w-100" alt="...">
+        <img src="/media/laptop2.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -96,8 +113,11 @@
         <span class="visually-hidden">Next</span>
     </button>
     </div>
+    <p>&copy;stockwebsites en AP hogeschool Antwerpen
+    </p>
   </div>
 </div>
-    
+
+<footer class="text-center bg-success-subtle pt-1">&copy;Axel Soebert</footer>
 </body>
 </html>
