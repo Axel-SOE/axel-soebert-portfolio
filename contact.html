@@ -14,6 +14,19 @@
   <!-- JavaScript: boostrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </script>
+  <script src="/javascript/map.js"></script>
+  <script src="/javascript/script_jaar.js"></script>
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
+    </script>
+    <!-- stijl  en java script voor leaflet -->
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin="" defer></script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
   <!-- eigen geschreven css -->
    <link rel="stylesheet" href="/css/reset.css">
    <link rel="stylesheet" href="/css/style.css">
@@ -121,6 +134,7 @@
       <a href="tel:+0483630588" target="_blank"><p><i class="bi bi-telephone-fill"></i><b> 0483 63 05 88</b></p></a>
       <a href="mailto:axelsoebert@gmail.com" target="_blank"><p><i class="bi bi-envelope-at-fill"></i><b> axelsoebert@gmail.com</b></p></a>
       <a href="https://maps.google.com/?q=Brasschaat" target="_blank"><p><i class="bi bi-geo-alt-fill"></i></i><b> Brasschaat (2930)</b></p></a>
+      <div id="map"></div>
     </aside>
     <figure class="col-7">
       <a href="https://stockcake.com/i/silhouetted-technological-portrait_515926_168189" target="_blank">
@@ -131,7 +145,7 @@
   </div>
 </div>
 
-<footer class="text-center bg-success-subtle pt-1">&copy;Axel Soebert</footer>
+<footer class="text-center bg-success-subtle pt-1">&copy; <span id="year" style="color: #3706e7;"></span> Axel Soebert</footer>
 
 </body>
 </html>

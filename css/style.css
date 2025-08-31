@@ -137,6 +137,7 @@ body {
   width: 300px;
   text-align: center;
   background-color: var(--bs-success-bg-subtle);
+  display: block;
 }
 
 .submit-kleur{
@@ -161,4 +162,9 @@ span{
   min-height: 100px;
   resize: vertical;
 }
+}
+
+#map{
+  width: 100%;
+  height: 400px;
 }
