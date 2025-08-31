@@ -8,6 +8,12 @@
     color: #3706e7 !important;
     font-weight: bolder;
 }
+
+.dropdown-item.active{
+    background-color: #3706e7 !important;
+    font-weight: bolder;
+}
+
 .navbar-desktop{
   display: none;
 }
@@ -59,6 +65,11 @@ body {
 
 .nav-link.active {
     color: #3706e7 !important;
+    font-weight: bolder;
+}
+
+.dropdown-item.active{
+    background-color: #3706e7 !important;
     font-weight: bolder;
 }
 
