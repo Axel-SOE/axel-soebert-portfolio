@@ -1,30 +1,24 @@
-/* Smartphone */
-@media (min-width: 400px) {
+/* mijn all-around css */
   body {
     font-style: italic;
     background-color: #FAF9EE;
   }
 
-  .nav-link.active,
-  .dropdown-item.active {
+    .nav-link.active {
     color: #3706e7 !important;
     font-weight: bolder;
   }
 
   .dropdown-item.active {
     background-color: #3706e7 !important;
+    font-weight: bolder;
   }
 
-  .navbar-desktop,
-  .contactinfo-aside {
-    display: none;
-  }
-
-  span {
+    span {
     color: red;
   }
 
-  footer {
+    footer {
     color: #3706e7;
     position: relative;
     bottom: 0;
@@ -35,15 +29,18 @@
     background-color: var(--bs-success-bg-subtle);
     font-weight: bolder;
   }
+
+
+/* Smartphone */
+@media (max-width: 768px) {
+  .navbar-desktop,
+  .contactinfo-aside {
+    display: none;
+  }
 }
 
 /* PC */
 @media (min-width: 950px) {
-  body {
-    font-style: italic;
-    background-color: #FAF9EE;
-  }
-
   p {
     line-height: 25px;
     font-size: larger;
@@ -55,16 +52,6 @@
 
   .navbar-mobile {
     display: none;
-  }
-
-  .nav-link.active,
-  .dropdown-item.active {
-    color: #3706e7 !important;
-    font-weight: bolder;
-  }
-
-  .dropdown-item.active {
-    background-color: #3706e7 !important;
   }
 
   .logo-size {
@@ -127,22 +114,6 @@
     text-align: center;
     background-color: var(--bs-success-bg-subtle);
     display: block;
-  }
-
-  .submit-kleur {
-    background-color: var(--bs-success-bg-subtle);
-    font-weight: bolder;
-  }
-
-  footer {
-    color: #3706e7;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-
-  span {
-    color: red;
   }
 
   #bericht {
