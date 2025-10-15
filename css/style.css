@@ -33,7 +33,6 @@
 
 /* Smartphone */
 @media (max-width: 768px) {
-  .navbar-desktop,
   .contactinfo-aside {
     display: none;
   }
@@ -44,14 +43,6 @@
   p {
     line-height: 25px;
     font-size: larger;
-  }
-
-  .navbar-desktop {
-    display: flex;
-  }
-
-  .navbar-mobile {
-    display: none;
   }
 
   .logo-size {
@@ -74,10 +65,6 @@
     scale: 1.2;
   }
 
-  .navbar {
-    font-size: 20px;
-  }
-
   .about-section {
     display: flex;
     gap: 20px;
@@ -87,6 +74,7 @@
   .about-text,
   .about-photo {
     flex: 1;
+    border-right: 2px solid #8f8e8e;
   }
 
   .about-photo img {
