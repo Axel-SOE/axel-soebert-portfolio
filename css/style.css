@@ -1,4 +1,4 @@
-/* mijn all-around css */
+/* mijn basis css */
   body {
     font-style: italic;
     background-color: #FAF9EE;
@@ -30,7 +30,15 @@
     font-weight: bolder;
   }
 
+  .logo-size {
+    width: 100px;
+    height: auto;
+  }
 
+  .progress-bar {
+    background-color: #3706e7;
+  }
+  
 /* Smartphone */
 @media (max-width: 768px) {
   .contactinfo-aside {
@@ -43,11 +51,6 @@
   p {
     line-height: 25px;
     font-size: larger;
-  }
-
-  .logo-size {
-    width: 90px;
-    height: auto;
   }
 
   .search-bar {
@@ -71,23 +74,21 @@
     padding: 20px;
   }
 
-  .about-text,
-  .about-photo {
+  .about-text {
     flex: 1;
     border-right: 2px solid #8f8e8e;
+    border-width: 2.5px;
+    margin-left: 45px;
+    margin-left: 15px;
+  }
+
+  .about-photo {
+    flex: 0.5
   }
 
   .about-photo img {
     max-width: 90%;
     border-radius: 10px;
-  }
-
-  .hover-img:hover {
-    scale: 1.01;
-  }
-
-  .progress-bar {
-    background-color: #3706e7;
   }
 
   .foto-axel {
@@ -103,7 +104,7 @@
     background-color: var(--bs-success-bg-subtle);
     display: block;
   }
-
+  
   #bericht {
     white-space: pre-wrap;
     overflow-wrap: break-word;
