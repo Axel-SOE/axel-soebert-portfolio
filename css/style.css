@@ -38,6 +38,10 @@
   .progress-bar {
     background-color: #3706e7;
   }
+
+  .footer-icon{
+    color: #3706e7;
+  }
   
 /* Smartphone */
 @media (max-width: 768px) {
