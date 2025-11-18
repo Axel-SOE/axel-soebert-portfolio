@@ -41,9 +41,6 @@
   
 /* Smartphone */
 @media (max-width: 768px) {
-  .contactinfo-aside {
-    display: none;
-  }
   .axel-photo {
   scale: 80%;
 }
@@ -122,6 +119,7 @@
   width: 230px;
   height: auto;
 }
+
 
 
 
