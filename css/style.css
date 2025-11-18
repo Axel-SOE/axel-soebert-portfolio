@@ -14,9 +14,7 @@
     font-weight: bolder;
   }
 
-    span {
-    color: red;
-  }
+    span {color: red;}
 
     footer {
     color: #3706e7;
@@ -35,9 +33,7 @@
     height: auto;
   }
 
-  .progress-bar {
-    background-color: #3706e7;
-  }
+  .progress-bar {background-color: #3706e7;}
 
   .footer-icon{
     color: #3706e7;
@@ -88,9 +84,7 @@
     margin-left: 110px;
   }
 
-  .about-photo {
-    flex: 1
-  }
+  .about-photo {flex: 1}
 
   .about-photo img {
     max-width: 90%;
@@ -124,3 +118,4 @@
   width: 230px;
   height: auto;
 }
+
