@@ -47,6 +47,10 @@
   .axel-photo {
   scale: 80%;
 }
+#map {
+  width: 100%;
+  height: 200px;
+}
 }
 
 /* PC */
@@ -118,6 +122,7 @@
   width: 230px;
   height: auto;
 }
+
 
 
 
