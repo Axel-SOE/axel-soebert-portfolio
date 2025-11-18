@@ -73,7 +73,7 @@
 
 <div class="about-section m-3">
   <div class="about-text col-12 col-md-6">
-        <form name="contact" method="post" data-netlify="true" class="me-4">
+        <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" class="me-4">
           <input type="hidden" name="form-name" value="contact">
             <fieldset class="row g-3 mb-3">
             <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
@@ -100,6 +100,7 @@
                     <textarea name="message" class="form-control" id="bericht" required wrap="soft"></textarea>
                 </div>    
             </fieldset>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn submit-kleur mb-3 ">Submit</button>
         </form>
   </div>
@@ -139,5 +140,6 @@
 </body>
 
 </html>
+
 
 
