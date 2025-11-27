@@ -1,7 +1,8 @@
 /* mijn basis css */
   body {
     font-style: italic;
-    background-color: #FAF9EE;
+    font-size: 17px;
+    background: linear-gradient(to bottom right, #d9e6ef, #ffffff);
   }
 
     .nav-link.active {
@@ -52,11 +53,6 @@
 
 /* PC */
 @media (min-width: 950px) {
-  p {
-    line-height: 25px;
-    font-size: larger;
-  }
-
   .about-section {
     display: flex;
     gap: 20px;
