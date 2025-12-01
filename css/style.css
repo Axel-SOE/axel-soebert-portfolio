@@ -17,7 +17,7 @@
 
 
   h1,h2,h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
   }
 
@@ -79,7 +79,7 @@
     flex: 1;
     border-right: 2px solid #8f8e8e;
     border-width: 2.5px;
-    margin-left: 110px;
+    margin-left: 100px;
   }
 
   .about-photo {flex: 1}
