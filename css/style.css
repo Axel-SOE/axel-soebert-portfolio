@@ -14,6 +14,11 @@
     line-height: 1.5;
   }
 
+  .fredoka-custom {
+      font-family: "Fredoka", sans-serif;
+      font-weight: 400;
+  }
+
   h1,h2,h3 {
   font-family: "Merriweather", serif;
   font-weight: 600;
@@ -122,6 +127,7 @@
   height: 400px;
 }
 }
+
 
 
 
