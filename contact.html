@@ -59,7 +59,6 @@
               <li><a class="dropdown-item " href="/project4.html">Project 4</a></li>
               <li><a class="dropdown-item " href="/project5.html">Project 5</a></li>
               <li><a class="dropdown-item" href="/project6.html">Project 6</a></li>  
-
             </ul>
         </li>
         <li class="nav-item">
@@ -70,36 +69,28 @@
   </div>
 </nav>
 
-<main class="merriweather-custom">
-  <section class="container-fluid py-3 px-5">
-    <div class="row">
-      <header class="col-md-8 bg-success-subtle rounded p-2">
-        <h1 class="mb-4">Het webwiz project </h1>
-        <div class="container bg-white rounded p-2 mb-1">
-          <p>Heeft u vragen over mijn projecten of andere gerelateerde onderwerpen? Laat gerust een bericht achter; ik neem zo spoedig mogelijk contact op.</p>
-        </div>
-      </header>
-      <aside class="col-md-3 bg-success-subtle rounded p-2 ms-2">
-        <h2>contactgegevens</h2>
-        <p>Hieronder vindt u alle overige informatie in verband met mijn contactgegevens</p>
-        <a href="tel:+32483630588" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-telephone-fill"></i> 0483 63 05 88</p></a>
-        <a href="mailto:axelsoebert@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-envelope-at-fill"></i> axelsoebert@gmail.com</p></a>
-        <a href="https://maps.google.com/?q=Brasschaat" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-geo-alt-fill"></i> Brasschaat (2930)</p></a>
-      </aside>
-    </div>
+<main class="merriweather-custom container-fluid py-3 px-5">
+  <section class="row">
+    <header class="col-md-9 bg-success-subtle rounded p-2">
+      <h1 class="ps-4 mb-4">Contacteer mij </h1>
+      <div class="container bg-white rounded p-2 mb-1">
+        <p>Heeft u vragen over mijn projecten of andere gerelateerde onderwerpen? Laat gerust een bericht achter, ik neem zo spoedig mogelijk contact op.</p>
+      </div>
+    </header>
+  </section>
 
     <section class="row g-4">
-      <div class="col-md-9 pe-5">
+      <div class="col-md-9 border border-4 px-5 py-2 mt-5 border-success-subtle rounded">
         <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" class="me-4">
           <input type="hidden" name="form-name" value="contact">
             <fieldset class="row g-3 mb-3">
             <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
-            <div class="mb-3">
+            <div class="mb-3 col-md-6">
                 <label for="voornaam" class="form-label">voornaam <span class="required"> *</span></label>
                 <input type="text" name="voornaam" class="form-control" id="voornaam" required>
                 <div id="" class="form-text"></div>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 col-md-6">
                 <label for="achternaam" class="form-label">achternaam <span class="required"> *</span></label>
                 <input type="text" name="achternaam" class="form-control" id="achternaam" required>
             </div>
@@ -113,17 +104,44 @@
                 <div class="mb-3">
                     <label for="onderwerp" class="form-label">onderwerp<span class="required"> *</span></label>
                     <input type="text" name="subject" class="form-control" id="onderwerp" required>
-                    <label for="bericht" class="form-label">tekst<span class="required"> *</span></label>
-                    <textarea name="message" class="form-control" id="bericht" required wrap="soft"></textarea>
-                </div>    
+                    <label for="bericht" class="form-label">tekst<span class="required"> *</span></label>                    
+                    <textarea name="message" class="form-control" id="bericht" required wrap="soft"></textarea>                  
+                  </div>    
             </fieldset>
             <div class="mb-2" data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn submit-kleur mb-3 ">Submit</button>
         </form>
       </div>
+      
+    <aside class="px-4 py-2 col-12 col-lg-3 text-center">
+      <div class="bg-success-subtle rounded py-2">
+        <h2 class="h1 pb-3">contactgegevens</h2>
+        <section class="text-end px-4 py-2">
+          <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="tel:+32483630588" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-telephone-fill"></i><b> 0483 63 05 88</b></p></a>
+                <span class="donker-blauw"><i class="bi bi-telephone-fill"></i></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="mailto:axelsoebert@gmail.com" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-envelope-at-fill"></i><b> axelsoebert@gmail.com</b></p></a>
+                <span class="donker-blauw"><i class="bi bi-github"></i></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="https://maps.google.com/?q=Brasschaat" target="_blank" rel="noopener noreferrer"><p><i class="bi bi-geo-alt-fill"></i></i><b> Brasschaat (2930)</b></p></a>
+                <span class="donker-blauw"><i class="bi bi-instagram"></i></span>
+              </li>
+            </ul>
+        </section>
+
+        <section class="align-items-center px-4 py-2">
+            <h2 class="h3 mb-3"> <i class="bi bi-geo-alt-fill fs-3 donker-blauw"></i> Locatie</h2>
+            <div id="map"></div>
+        </section>
+      </div> 
+    </aside>
     </section>
-  </section>
 </main>
+
 
 <footer class="row bg-success-subtle">
     <div class="text-center">
