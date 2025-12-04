@@ -43,11 +43,6 @@
     font-weight: bolder;
   }
 
-  .submit-kleur {
-    background-color: var(--bs-success-bg-subtle);
-    font-weight: bolder;
-  }
-
   .logo-size {
     width: 100px;
     height: auto;
