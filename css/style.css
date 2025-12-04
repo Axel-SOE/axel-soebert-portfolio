@@ -46,6 +46,7 @@
   .submit-kleur {
     background-color: var(--bs-success-bg-subtle);
     font-weight: bolder;
+    text-decoration: border;
   }
 
   .logo-size {
@@ -106,6 +107,7 @@
     scale: 90%;
   }
 }
+
 
 
 
