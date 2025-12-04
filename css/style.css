@@ -23,7 +23,7 @@
   font-weight: 700;
   }
 
-    .nav-link.active {
+  .nav-link.active {
     color: #3706e7 !important;
     font-weight: bolder;
   }
