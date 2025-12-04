@@ -80,13 +80,6 @@
 #map {
   width: 100%;
   height: 200px;}
-
-#foto_axel {
-  width: 75%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;}
 }
 
 /* Tablet */
@@ -95,9 +88,7 @@
 #map {
   width: 100%;
   height: 250px;}
-
 }
-
 
 /* PC */
 @media (min-width: 950px) {
@@ -110,8 +101,6 @@
   #map {
   width: 100%;
   height: 400px;}
-
-
 
   main {
     scale: 90%;
