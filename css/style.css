@@ -64,7 +64,6 @@
 
   .donker-blauw {
     color: #3706e7;
-
   }
   
 /* Smartphone */
@@ -101,9 +100,6 @@
   p{
     font-size: 1.25rem;
   }
-    main {
-    scale: 90%;
-  } 
 }
 
 

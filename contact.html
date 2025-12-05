@@ -69,75 +69,90 @@
   </div>
 </nav>
 
-<main class="merriweather-custom py-3 px-5">
-  <section class="row">
-    <header class="col-md-9 p-3 shadow-lg border border-4 border-success-subtle bg-success-subtle">
-      <h1 class="ps-4 mb-4">Contacteer mij </h1>
-      <div class="bg-white rounded p-2 mb-1">
-        <p>Heeft u vragen over mijn projecten of andere gerelateerde onderwerpen? Laat gerust een bericht achter, ik neem zo spoedig mogelijk contact op.</p>
-      </div>
-    </header>
-  </section>
+<div class="container-fluid px-5 py-5">
+  <div>
+    <main class="merriweather-custom">
+      <section class="row">
+        <figure class="col-md-2 align-self-center d-flex justify-content-center">
+          <img src="/media/laptop2.jpg" alt="" id="foto_axel" class="rounded border border-5 border-white">
+        </figure>
 
-    <section class="row g-4">
-      <div class="col-md-9 border border-4 px-5 py-2 mt-5 border-success-subtle rounded shadow-lg bg-success-subtle">
-        <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" class="me-4">
-          <input type="hidden" name="form-name" value="contact">
-            <fieldset class="row g-3 mb-3">
-            <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
-            <div class="mb-3 col-md-6">
-                <label for="voornaam" class="form-label">voornaam</label>
-                <input type="text" name="voornaam" class="form-control border-secondary" id="voornaam" required>
-                <div id="" class="form-text"></div>
+        <article class="col-md-8">
+          <h1 class="fw-bolder">Contact</h1>
+          <div class="text-start bg-success-subtle border border-success-subtle border-3 rounded p-3 shadow-lg mb-2">
+            <p>Heeft u vragen over mijn projecten of andere gerelateerde onderwerpen? Laat gerust een bericht achter, ik neem zo spoedig mogelijk contact op.</p>
+          </div>
+          <section class="row">
+            <div class="col-md-12 border border-4 px-5 py-2 mt-5 border-success-subtle rounded shadow-lg bg-success-subtle">
+              <form name="contact" method="post" data-netlify="true" data-netlify-recaptcha="true" class="me-4">
+                <input type="hidden" name="form-name" value="contact">
+                  <fieldset class="row g-3 mb-3">
+                  <legend class="text-uppercase fs-5 fw-bolder pt-3">persoonlijke gegevens</legend>
+                  <div class="mb-3 col-md-6">
+                      <label for="voornaam" class="form-label">voornaam</label>
+                      <input type="text" name="voornaam" class="form-control border-secondary" id="voornaam" required>
+                      <div id="" class="form-text"></div>
+                  </div>
+                  <div class="mb-3 col-md-6">
+                      <label for="achternaam" class="form-label">achternaam</label>
+                      <input type="text" name="achternaam" class="form-control  border-secondary" id="achternaam" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">e-mail</label>
+                      <input type="email" name="email" class="form-control border-secondary" id="email" required>
+                  </div>
+                  </fieldset>
+                  <fieldset>
+                      <legend class="text-uppercase fs-5 fw-bolder pt-3">bericht</legend>
+                      <div class="mb-3 borde">
+                          <label for="onderwerp" class="form-label">onderwerp</label>
+                          <input type="text" name="subject" class="form-control border-secondary" id="onderwerp" required>
+                          <label for="bericht" class="form-label">tekst</label>                    
+                          <textarea name="message" class="form-control border-secondary" id="bericht" required wrap="soft"></textarea>                  
+                        </div>    
+                  </fieldset>
+                  <div class="mb-2" data-netlify-recaptcha="true"></div>
+                  <button type="submit" class="btn fw-bolder bg-white border border-dark  mb-3 ">Submit</button>
+              </form>
             </div>
-            <div class="mb-3 col-md-6">
-                <label for="achternaam" class="form-label">achternaam</label>
-                <input type="text" name="achternaam" class="form-control  border-secondary" id="achternaam" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">e-mail</label>
-                <input type="email" name="email" class="form-control border-secondary" id="email" required>
-            </div>
-            </fieldset>
-            <fieldset>
-                <legend class="text-uppercase fs-5 fw-bolder pt-3">bericht</legend>
-                <div class="mb-3 borde">
-                    <label for="onderwerp" class="form-label">onderwerp</label>
-                    <input type="text" name="subject" class="form-control border-secondary" id="onderwerp" required>
-                    <label for="bericht" class="form-label">tekst</label>                    
-                    <textarea name="message" class="form-control border-secondary" id="bericht" required wrap="soft"></textarea>                  
-                  </div>    
-            </fieldset>
-            <div class="mb-2" data-netlify-recaptcha="true"></div>
-            <button type="submit" class="btn fw-bolder bg-white border border-dark  mb-3 ">Submit</button>
-        </form>
-      </div>
-      
-      <aside class="px-4 py-4 col-12 col-lg-3 text-center">
-        <div class="rounded py-2 shadow-lg border border-4 border-success-subtle bg-success-subtle">
-          <h2 class="pb-3">socials</h2>
-          <section class="text-end px-4 py-2">
-              <ul class="list-group">
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <a href="https://www.linkedin.com/in/axel-soebert-035a87291/" target="_blank" rel="noopener noreferrer" class="fw-bolder fs-4">LinkedIn</a>
-                    <span class="donker-blauw"><i class="bi bi-linkedin"></i></span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <a href="https://www.instagram.com/axelsoebert/" target="_blank" rel="noopener noreferrer" class="fw-bolder fs-4">Instagram</a>
-                    <span class="donker-blauw"><i class="bi bi-instagram"></i></span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <a href="https://github.com/Axel-SOE" target="_blank" rel="noopener noreferrer" class="fw-bolder fs-4">Github</a>
-                    <span class="donker-blauw"><i class="bi bi-github"></i></span>
-                  </li>
-                </ul>
-                <div class="mt-4 rounded" id="map"></div>
           </section>
-        </div> 
-      </aside>
-    </section>
-</main>
+        </article>
 
+        <aside class="col-md-2 ps-3">
+          <h2 class="text-center">socials</h2>
+          <div class="bg-success-subtle p-2 rounded border border-2 border-success-subtle">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="https://www.linkedin.com/in/axel-soebert-035a87291/"
+                  target="_blank" rel="noopener noreferrer"
+                  class="fw-bolder fs-4">LinkedIn</a>
+                <span class="donker-blauw"><i class="bi bi-linkedin"></i></span>
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="https://www.instagram.com/axelsoebert/"
+                  target="_blank" rel="noopener noreferrer"
+                  class="fw-bolder fs-4">Instagram</a>
+                <span class="donker-blauw"><i class="bi bi-instagram"></i></span>
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="https://github.com/Axel-SOE"
+                  target="_blank" rel="noopener noreferrer"
+                  class="fw-bolder fs-4">Github</a>
+                <span class="donker-blauw"><i class="bi bi-github"></i></span>
+              </li>
+            </ul>
+            <div class="mt-3">
+            <h5 class="fw-bolder">Woonplaats: </h3>
+            <div class="mt-4 mb-3 border border-5 border-white" id="map"></div>
+            </div>
+          </div>
+        </aside>
+      </section>   
+    </main>
+  </div>
+</div>
 
 <footer class="container-fluid bg-success-subtle">
     <div class="text-center">
