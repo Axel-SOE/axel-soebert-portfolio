@@ -32,7 +32,7 @@
   }
 
   .logo-size {
-    width: 100px;
+    width: 80px;
     height: auto;
     border-radius: 10%;
   }
@@ -97,6 +97,7 @@
     font-size: 1.25rem;
   }
 }
+
 
 
 
