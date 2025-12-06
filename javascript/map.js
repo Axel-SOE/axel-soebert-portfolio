@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-var map = L.map('map').setView([51.29, 4.49], 11);
+var map = L.map('map').setView([51.29, 4.49], 12);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
