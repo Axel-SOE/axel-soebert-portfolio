@@ -1,16 +1,7 @@
-  /* font van google-fonts */
-  .merriweather-custom {
-    font-family: "Merriweather", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
 /* mijn basis css */
   body {
     background: linear-gradient(to bottom right, #d9e6ef, #ffffff);
+    font-family: "Merriweather", serif;
   }
   
   .fredoka-custom {
@@ -43,6 +34,10 @@
   .logo-size {
     width: 100px;
     height: auto;
+  }
+
+  #foto_axel {
+    transform: scale(0.65);
   }
 
   .progress-bar {background-color: #3706e7;}
