@@ -1,17 +1,12 @@
 /* mijn basis css */
   body {
     background: linear-gradient(to bottom right, #d9e6ef, #ffffff);
-    font-family: "Merriweather", serif;
+    font-family: "Fredoka", serif;
   }
   
-  .fredoka-custom {
-      font-family: "Fredoka", sans-serif;
-      font-weight: 400;
-  }
-
   h1,h2,h3,h4,h5 {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
+  font-family: "Fredoka", serif;
+  font-weight: 600;
   }
 
   .nav-link.active {
