@@ -57,6 +57,13 @@
     color: #3706e7;
   }
   
+  .list-group-item.active{
+    background-color:whitesmoke;
+    color: #3706e7;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  
 /* Smartphone */
 @media (max-width: 767px) {
 
